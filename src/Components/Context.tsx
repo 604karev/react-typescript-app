@@ -50,10 +50,12 @@ class Context extends Component<{}, { isAuth: Boolean }> {
         const { isAuth } = this.state
         const context: IContext = { isAuth, toggleAuth: this.toggleAuth }
         return (
-            <AuthContext.Provider value={context}>
-                <Login />
-                <Profile />
-            </AuthContext.Provider>
+            <div>
+                <AuthContext.Provider value={context}>
+                    <Login />
+                    <Profile />
+                </AuthContext.Provider>
+            </div>
         )
     }
 }

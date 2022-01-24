@@ -50,7 +50,6 @@ class Counter extends Component<CounterProps, CounterState>{
     render() {
         return (
             <div>
-
                 <h1>{this.props.title}{this.state.count}</h1>
                 <button onClick={this.handleClick}>add</button>
                 <Portal>

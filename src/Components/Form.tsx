@@ -85,7 +85,7 @@ class Form extends Component<{}, FormStateType>{
         const { name, text, position } = showData
 
         return (
-            <>
+            <div>
                 <form>
                     <label style={styles}>
                         Name:
@@ -121,7 +121,7 @@ class Form extends Component<{}, FormStateType>{
                 <h2>{name}</h2>
                 <h3>{text}</h3>
                 <h3>{position}</h3>
-            </>
+            </div>
         )
     }
 }
