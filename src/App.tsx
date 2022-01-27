@@ -4,11 +4,7 @@ import Form from "./Components/Form";
 import Context from "./Components/Context";
 import UseStateHook from './Components/UseStateHook';
 import UseEffectHook from './Components/UseEffectHook';
-
-
-
-
-
+import UseContextComponent, { UseContextHooks } from './Components/UseContextHook';
 
 
 const App: React.FC = () => (
@@ -18,6 +14,7 @@ const App: React.FC = () => (
         <Context />
         <UseStateHook />
         <UseEffectHook />
+        <UseContextComponent />
     </>
 )
 

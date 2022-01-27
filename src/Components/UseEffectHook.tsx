@@ -30,7 +30,7 @@ const UseEffectHook = () => {
         if (sortedState) {
             result.sort()
         }
-        setData([...result])
+        return setData([...result])
 
     }, [sortedState, inputValue])
 
