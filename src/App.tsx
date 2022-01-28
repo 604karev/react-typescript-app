@@ -5,6 +5,7 @@ import Context from "./Components/Context";
 import UseStateHook from './Components/UseStateHook';
 import UseEffectHook from './Components/UseEffectHook';
 import UseContextComponent, { UseContextHooks } from './Components/UseContextHook';
+import UseReducerHook from './Components/useReducerHook';
 
 
 const App: React.FC = () => (
@@ -15,6 +16,7 @@ const App: React.FC = () => (
         <UseStateHook />
         <UseEffectHook />
         <UseContextComponent />
+        <UseReducerHook />
     </>
 )
 
