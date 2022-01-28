@@ -7,6 +7,7 @@ import UseEffectHook from './Components/UseEffectHook';
 import UseContextComponent from './Components/UseContextHook';
 import UseReducerHook from './Components/UseReducerHook';
 import UseRefHook from './Components/UseRefHook';
+import UseCustomHook from './Components/UseCustonHook';
 
 
 const App: React.FC = () => (
@@ -19,6 +20,7 @@ const App: React.FC = () => (
         <UseContextComponent />
         <UseReducerHook />
         <UseRefHook />
+        <UseCustomHook />
     </>
 )
 
